@@ -1,0 +1,49 @@
+body{
+  background: pink;
+  font-family: serif;
+}
+
+
+.cor{
+  width: 500px;
+  border-style: solid;
+  border-color: white;
+  border-width: 20px;
+  padding: 25px;
+  box-shadow: inset 0px 0px 0px 20px navy;
+}
+
+.bor{
+  width: 500px;
+  border: Red double 20px;
+  box-shadow: inset 0px 0px 0px 20px navy;
+  padding: 25px;
+  margin: 25px;
+}
+
+
+
+
+body.blue{
+  border: 25px navy;
+  border-style: solid;
+  box-shadow: inset 0px 0px 0px 10px navy;
+  background: pink;
+  padding: 25px;
+  margin: 25px;
+}
+
+ol{
+  list-style-type: upper-roman;
+}
+
+
+ol.a{
+  list-style-type: upper-latin;
+  color : green;
+}
+
+ol.b{
+  list-style: decimal;
+  color: blue;
+}

@@ -1,0 +1,147 @@
+<!--
+********************************************************
+* Quiz 01: HTML					       *
+* 						       *
+* Date:                                                *
+* Name:   Puan Alma Nalita                                             *
+* Matric No: 		A17CS0267      *
+* Section :                                            *
+********************************************************
+-->
+
+
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: double;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+
+
+table#yuza th{
+ text-align:center;
+ vertical-align:middle;
+	background-color: yellow;
+}
+
+table#yuza td{
+	background-color: Pink;
+}
+
+table#yuza td{
+ text-align:center;
+ vertical-align:middle;
+}
+
+
+</style>
+
+
+<title>Popcorn Sales Form</title>
+
+</head>
+
+
+<body bgcolor="skyblue">
+
+<h2> Welcome to Millenium Gymnastic Booster Club Popcorn Sales </h2>
+<!-- The next line gives the address of the CGI program -->
+
+<form action="">
+
+
+<!-- Insert A borderless table of text widgets for name, address, city and gender -->
+<table>
+    <tr>
+    <th><i>Buyer's name</i></th>
+    <th><input type="text" name="name" /></th>
+	<td rowspan="4"><img src="mahathir.jpg"></td>
+	</tr>
+
+  <tr>
+    <th><i>Street Adress</i></th>
+	<th><input type="text" name="Adress" /></th>
+  </tr>
+
+  <tr>
+    <th><i>City, State, Zip</i></th>
+	<th><input type="text" name="Zip" /></th>
+  </tr>
+
+  <tr>
+    <th><i>Gender</i></th>
+	<th><SELECT>
+		<OPTION Value="male">male</OPTION>
+		<OPTION Value="female">female</OPTION>
+		</SELECT>
+  </tr>
+
+
+</table>
+<br><br>
+
+
+<!-- Insert A bordered table for items orders -->
+<table border="2"; width="50%" id="yuza">
+
+<!-- First, insert the column headings -->
+	<tr>
+	<th>Product Name</th>
+	<th>price</th>
+	<th>Quantity</th>
+	</tr>
+
+<!-- Now, insert the three of table data entries -->
+	<tr>
+	<td>Unpopped popcord</td>
+	<td>$3.00</td>
+	<td><input type="text" name="quantity"></td>
+	</tr>
+
+	<tr>
+	<td>caramel popcord</td>
+	<td>$4.00</td>
+	<td><input type="text" name="quantity"></td>
+	</tr>
+
+	<tr>
+	<td>caramel nut popcord</td>
+	<td>$5.00</td>
+	<td><input type="text" name="quantity"></td>
+	</tr>
+
+	<tr>
+	<td>toffey nut popcord</td>
+	<td>$6.00</td>
+	<td><input type="text" name="quantity"></td>
+	</tr>
+
+
+
+</table>
+
+
+<!-- Now, insert the radio button for the payment method -->
+<h2> Payment Method: </h2>
+<p>
+<INPUT TYPE="Radio" Name="Cash" Value="CC" checked>Cash
+<INPUT TYPE="Radio" Name="CC" Value="DC">Credit card
+</p>
+
+
+<!-- Lastly, insert the submit and reset buttons -->
+<p>
+please write your comment:<br>
+<textarea type="text" name="comment" rows="10" cols="30"> </textarea><br>
+<button type="Submit">Submit</button><button type="reset">Reset</button>
+</p>
+
+</form>
+</body>
+</htm
